@@ -170,8 +170,8 @@ In the first example we demonstrate how someone could very simply add 2 constant
     int main(int argc, char** argv)
     {
         // avoid compiler warnings
-        Q_UNUSED(argc)
-        Q_UNUSED(argv)
+        Q_UNUSED(argc);
+        Q_UNUSED(argv);
         QString s1("Paris");
         QString s2("London");
         // string concatenation
